@@ -30,6 +30,7 @@ Use camelCase for variable and function names.
 Use PascalCase for class names.
 Semicolons: Include semicolons at the end of statements.
 Comments: Provide comments for complex logic or non-obvious code sections.
+
 Python Code Style:
 
 PEP 8: Our Python code should adhere to the guidelines set by the Python Enhancement Proposal (PEP) 8 style guide. Refer to the PEP 8 Style Guide for detailed conventions.
