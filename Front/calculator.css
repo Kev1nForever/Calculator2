@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
+    background-color: #FAF0E2;
+}
+
+.calculator .number{
+    background-color: #ffffffa4;
+    transition: background-color 0.3s;
+}
+
+.calculator .number:hover {
+    background-color: #F5DEB3;
+}
+
+.calculator .ac{
+    background-color: #FFA500;
+    transition: background-color 0.3s;
+}
+
+.calculator .ac:hover {
+    background-color: #FF8C00;
+}
+
+.calculator .equal {
+    background-color: #333;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    color: #fff;
+}
+
+.calculator .equal:hover {
+    background-color: #A9A9A9;
+    color: #fff;
+}
+
+
+.calculator {
+    text-align: center;
+    background-color: #FAF0E6;
+    border: 1px solid #f3f0f0;
+    padding: 30px 20px 20px 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 410px; /* 设置宽度 */
+    height: 400px; /* 设置高度 */
+    
+}
+
+textarea {
+    width: 79%;
+    font-family: MingLiUi;
+    font-size: 18px; /* 设置文本字体大小 */
+    background-color: #ffffffa4;
+    padding: 20px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    resize: none;
+    scrollbar-width: 0;
+    width: 370px; /* 设置宽度 */
+    height: 40px;
+    resize: none;
+}
+
+
+.buttons button {
+    background-color: #ffffffa4;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: 1px solid #F5F5DC;
+    cursor: pointer;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #F5DEB3;
+}
+
+.choice_buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.choice_buttons button {
+    flex: 1;
+    padding: 5px 3px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 0px;
+    margin-bottom: 5px;  
+    background-color: #FFFAFA; /* 设置按钮的背景颜色 */
+    border: none; /* 去掉按钮的边框 */
+    color: #0c0b0b; 
+    font-family: DFKai-SB;
+    border-radius: 13px;  
+
+}
+  
+.choice_buttons button:hover {
+    background-color: #F5F5F5; /* 鼠标悬停时的背景颜色 */
+}
+
+
+.change_buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.change_buttons button {
+    flex: 1;
+    padding: 5px 3px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 25px;
+    margin-bottom: 5px;  
+    background-color: WhiteSmoke; /* 设置按钮的背景颜色 */
+    border: none; /* 去掉按钮的边框 */
+    color: #0c0b0b; 
+    font-family: DFKai-SB;
+    border-radius: 13px;  
+
+}
+  
+.change_buttons button:hover {
+    background-color: #F8F8FF; /* 鼠标悬停时的背景颜色 */
+}
+
+label {
+    font-family: MingLiUi; /* 设置字体系列 */
+    font-size: 17px;               /* 设置字体大小 */
+    font-weight: bold;             /* 设置字体粗细 */
+    color: #333;                   /* 设置字体颜色 */
+}
+
+
+.calculator-title {
+    font-family: STKaiti;
+    font-weight: bold; 
+    font-size: 38px;
+    text-align: center; /* 居中对齐文本 */
+    margin-top: 20px;   /* 调整文本与上方内容的间距 */
+    margin-bottom: 20px;
+    color: #333;        /* 设置文本颜色 */
+}
+
+
+
